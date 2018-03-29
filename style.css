@@ -9,9 +9,20 @@ header
   background-color: cyan;
 }
 
+footer
+{
+  height: 60px;
+  background-color: cyan;
+}
+
 .full-height
 {
   height: 100%;
+}
+
+.full-width
+{
+  width: 100%;
 }
 
 .flex-base
@@ -56,6 +67,19 @@ ul.flex-center
 }
 
 .menu-buttons>li:hover, .menu-buttons>li:hover>a
+{
+  background-color: black;
+  color: white;
+}
+
+.menu-footer>li>a
+{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: red;
+}
+
+.menu-footer>li:last-of-type:hover, .menu-footer>li:hover>a
 {
   background-color: black;
   color: white;
