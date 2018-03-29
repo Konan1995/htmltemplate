@@ -1,11 +1,17 @@
 body
 {
-
+ background-color: lightblue;
 }
 
 header
 {
-  height: 50px;
+  height: 60px;
+  background-color: cyan;
+}
+
+.full-height
+{
+  height: 100%;
 }
 
 .flex-base
@@ -22,7 +28,13 @@ header
 
 ul.flex-center
 {
-    width: 200px;
+    width: 300px;
+}
+
+.menu-buttons>li
+{
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .no-padding-margin
@@ -39,5 +51,12 @@ ul.flex-center
 .menu-buttons>li>a
 {
   text-decoration: none;
+  text-transform: uppercase;
   color: red;
+}
+
+.menu-buttons>li:hover, .menu-buttons>li:hover>a
+{
+  background-color: black;
+  color: white;
 }
