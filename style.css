@@ -1,18 +1,58 @@
+*
+{
+    font-family: 'Playfair Display', serif;
+}
+
 body
 {
- background-color: lightblue;
+ background-color: #7EA7CE;
+ height: 3000px;
+ background-image: url("./images/wallpaper.jpg");
 }
 
 header
 {
   height: 60px;
-  background-color: cyan;
+  background-image: url("./images/spirale.jpg");
+}
+
+main
+{
+  margin-top: 80px;
 }
 
 footer
 {
   height: 60px;
-  background-color: cyan;
+  background-image: url("./images/spirale.jpg");
+}
+
+.position-fixed
+{
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
+.position-footer
+{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.image-container
+{
+  margin-top: 40px;
+  max-width: 500px;
+}
+
+.image-container>img
+{
+  max-width: 100%;
+  height: auto;
+  padding: 20px;
+  background-image: url("./images/spirale.jpg");
 }
 
 .full-height
@@ -42,10 +82,38 @@ ul.flex-center
     width: 300px;
 }
 
+.flex-column
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.flex-alternate
+{
+  flex-direction: row-reverse;
+}
+
+#logo-title
+{
+  font-family: 'Eagle Lake', cursive;
+}
+
+.p-base
+{
+  width: 50%;
+  text-align: justify;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  font-family: 'Playfair Display', serif;
+  padding-top: 50px;
+}
+
 .menu-buttons>li
 {
     padding-right: 10px;
     padding-left: 10px;
+    font-family: 'Eagle Lake', cursive;
 }
 
 .no-padding-margin
@@ -64,12 +132,14 @@ ul.flex-center
   text-decoration: none;
   text-transform: uppercase;
   color: red;
+  font-family: 'Eagle Lake', cursive;
 }
 
 .menu-buttons>li:hover, .menu-buttons>li:hover>a
 {
-  background-color: black;
+  background-color: #A8F3FF;
   color: white;
+  font-family: 'Eagle Lake', cursive;
 }
 
 .menu-footer>li>a
@@ -77,10 +147,21 @@ ul.flex-center
   text-decoration: none;
   text-transform: uppercase;
   color: red;
+  font-family: 'Eagle Lake', cursive;
 }
 
 .menu-footer>li:last-of-type:hover, .menu-footer>li:hover>a
 {
-  background-color: black;
+  background-color: #A8F3FF;
   color: white;
+  font-family: 'Eagle Lake', cursive;
+}
+
+.s-background
+{
+  background-image: url("./images/cadre.jpg");
+  background-size: cover;
+  color: #FCFFFF;
+  padding: 20px;
+  margin-bottom: 50px;
 }
