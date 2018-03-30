@@ -44,6 +44,7 @@ footer
 .image-container
 {
   max-width: 40%;
+  margin: auto;
 }
 
 .image-container>img
